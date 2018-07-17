@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: rgb(240, 136, 124) ;
+}
+form{
+  opacity: 0.9;
+    position: absolute;
+    background: black;
+    width:250px;
+    height:380px;
+    border: 2px solid black;
+   
+   border-right: 200px;
+    border-radius: 15px;
+}
+input{
+    text-align: center;
+    background: white;
+    width:55px;
+    height: 55px;
+    font-size: 22px;
+    font-weight: 900;
+  border-radius: 7px;
+    border: 1px solid gray;
+    margin: 1px;
+    margin-left: 2px;
+    text-align: center;
+}
+input[type=text]{
+position: relative;
+width: 95%;
+margin: 5px auto;
+margin-left: 5px;
+padding: 5%;
+font-size: 22px;
+border-radius: 5px;
+text-align: end;
+}
+.wrap{
+    top: 50px;
+    width:500px;
+    margin: auto;
+    height:auto;
+    padding: 50px;
+}
+#equal{
+width: 55px;
+height:110px;
+position: absolute; 
+ background: orangered; 
+
+}
+#plus{
+    width: 55px;
+    height:110px;
+    position: absolute;
+    background:orangered;
+     
+    }
+#clear{
+opacity:0.9;
+  background: gold;  
+}
+
+label{
+    color: chocolate;   
+}
+#delete{
+    background-color:red;
+    opacity: 0.7;
+}
+input:hover{
+    background-color:gray;
+}
+

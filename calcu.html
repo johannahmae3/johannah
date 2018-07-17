@@ -1,0 +1,41 @@
+<html>
+    <head> </head>
+<body>
+        <link rel="stylesheet" type="text/css" href="D:\My_Documents\exercise\calcu.css" />
+
+        <div class="wrap">
+<form name="forms">
+            <center><label>Calculator</label></center>
+        <input type="text"  name="total" class="answers"> <br> 
+      
+    <input type ="button" value=" AC  " onclick="form.total.value =''" id="clear">       
+        <input type="button" value=" / " onclick="form.total.value += '/'"> 
+        <input type="button" value=" * " onclick="form.total.value += '*'">
+        <input type="button" value=" - " onclick="form.total.value += '-'"/>
+
+        <br>
+        
+        <input type="button" value="7" onclick="form.total.value += '7'">
+        <input type="button" value="8" onclick="form.total.value += '8'">
+        <input type="button" value="9" onclick="form.total.value += '9'">
+        <input type="button" value="+" onclick="form.total.value += '+'" id="plus">
+        <br> 
+
+        <input type="button" value="4" onclick="form.total.value += '4'">
+        <input type="button" value="5" onclick="form.total.value += '5'">
+        <input type="button" value="6" onclick="form.total.value += '6'">
+        
+        <br> 
+        <input type="button" value="1" onclick="form.total.value += '1'">
+        <input type="button" value="2" onclick="form.total.value += '2'">
+        <input type="button" value="3" onclick="form.total.value += '3'">
+        <input type="button" value="=" onclick="form.total.value = eval (form.total.value)" id="equal">
+        <br> 
+        <input type="button" value="Del" OnClick="form.total.value=form.total.value.substring(0, form.total.value.length -1)" id="delete">
+        <input type="button" value="0" onclick="form.total.value += '0'">
+        <input type="button" value="." onclick="form.total.value += '.'">
+        
+
+        </form>
+</body>
+</html>
