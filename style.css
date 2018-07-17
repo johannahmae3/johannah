@@ -11,8 +11,7 @@ form{
     width:250px;
     height:380px;
     border: 2px solid black;
-   
-   border-right: 200px;
+    border-right: 200px;
     border-radius: 15px;
 }
 input{
@@ -22,21 +21,21 @@ input{
     height: 55px;
     font-size: 22px;
     font-weight: 900;
-  border-radius: 7px;
+    border-radius: 7px;
     border: 1px solid gray;
     margin: 1px;
     margin-left: 2px;
     text-align: center;
 }
 input[type=text]{
-position: relative;
-width: 95%;
-margin: 5px auto;
-margin-left: 5px;
-padding: 5%;
-font-size: 22px;
-border-radius: 5px;
-text-align: end;
+    position: relative;
+    width: 95%;
+    margin: 5px auto;
+    margin-left: 5px;
+    padding: 5%;
+    font-size: 22px;
+    border-radius: 5px;
+    text-align: end;
 }
 .wrap{
     top: 50px;
@@ -46,26 +45,24 @@ text-align: end;
     padding: 50px;
 }
 #equal{
-width: 55px;
-height:110px;
-position: absolute; 
- background: orangered; 
-
+    width: 55px;
+    height: 110px;
+    position: absolute; 
+    background: orangered; 
 }
 #plus{
     width: 55px;
     height:110px;
     position: absolute;
     background:orangered;
-     
     }
 #clear{
-opacity:0.9;
-  background: gold;  
+   opacity:0.9;
+   background: gold;  
 }
-
-label{
-    color: chocolate;   
+title{
+    color: chocolate;
+    text-align: center;  
 }
 #delete{
     background-color:red;
@@ -74,4 +71,5 @@ label{
 input:hover{
     background-color:gray;
 }
+
 
